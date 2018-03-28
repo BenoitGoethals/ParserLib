@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParserLib", "ParserLib\ParserLib.csproj", "{81617B50-4A21-449E-A39D-D1CA0FA7E324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParserLibTests", "ParserLibTests\ParserLibTests.csproj", "{D9F9334A-8053-459F-A543-767AC546564F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81617B50-4A21-449E-A39D-D1CA0FA7E324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81617B50-4A21-449E-A39D-D1CA0FA7E324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81617B50-4A21-449E-A39D-D1CA0FA7E324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81617B50-4A21-449E-A39D-D1CA0FA7E324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F9334A-8053-459F-A543-767AC546564F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F9334A-8053-459F-A543-767AC546564F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F9334A-8053-459F-A543-767AC546564F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F9334A-8053-459F-A543-767AC546564F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8111D0D0-9FE0-44E1-A04A-F2A4BFB59499}
+	EndGlobalSection
+EndGlobal

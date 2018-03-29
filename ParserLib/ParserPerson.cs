@@ -7,15 +7,20 @@ using System.Threading.Tasks;
 
 namespace ParserLib
 {
-    public  class Parser
+    public  class ParserPerson
     {
-        private IParse _parseStrategie ;
+        private static IParse _parseStrategie ;
 
+        private ParserPerson()
+        {
+            
+        }
 
+        private static ParserPerson _instance=new ParserPerson();
 
-        private  List<Person> persons = new List<Person>();
+        private static List<Person> persons = new List<Person>();
 
-        public  List<Person> Parse(string file)
+        public   List<Person> Parse(string file)
         {
            
             if(file.Contains(".csv"))
@@ -28,7 +33,10 @@ namespace ParserLib
         }
 
 
-       
+        public static ParserPerson Instance()
+        {
+            return _instance;
+        }
 
        
     }

@@ -2,8 +2,8 @@
 
 namespace ParserLib
 {
-    public interface IParse
+    public interface IParse<T>
     {
-        List<Person> Parse();
+        List<T> Parse();
     }
 }

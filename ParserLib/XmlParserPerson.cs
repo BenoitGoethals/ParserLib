@@ -9,11 +9,11 @@ using System.Xml.Linq;
 
 namespace ParserLib
 {
-    public sealed class XmlParser : IParse
+    public sealed class XmlParserPerson : IParse<Person>
     {
         private string _file;
 
-        public XmlParser(string file)
+        public XmlParserPerson(string file)
         {
             this._file = file;
         }

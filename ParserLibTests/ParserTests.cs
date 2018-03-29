@@ -10,7 +10,7 @@ namespace ParserLibTests
         [TestMethod()]
         public void ParseCsvTest()
         {
-            var persons= ParserPerson.Instance().Parse("c:/temp/dataMar-28-2018.csv");
+            var persons= Parser<Person>.Instance().Parse("c:/temp/dataMar-28-2018.csv");
             foreach (var pers  in persons)
             {
                 Assert.IsNotNull(pers.Name);
@@ -22,7 +22,7 @@ namespace ParserLibTests
         [TestMethod()]
         public void ParseXmlTest()
         {
-            var persons = ParserPerson.Instance().Parse("c:/temp/dataMar-28-2018.xml");
+            var persons = Parser<Person>.Instance().Parse("c:/temp/dataMar-28-2018.xml");
             foreach (var pers in persons)
             {
                 Assert.IsNotNull(pers.Name);

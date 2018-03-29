@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace ParserLib
 {
-   public sealed class  CsvParser : IParse
-    {
+   public  class  CsvParserPerson : IParse<Person>
+   {
         private readonly string _file;
 
-        public CsvParser(string file)
+        public CsvParserPerson(string file)
         {
             this._file = file;
         }
